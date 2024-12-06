@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "questoes"
+version = "0.1.0"
+description = "Programa que busca questões na internet, as organiza e passa para o usuário respondê-las"
+authors = ["Kauã <kauaotaviano100@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.25.0"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+pymupdf = "^1.24.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

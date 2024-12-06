@@ -1,0 +1,50 @@
+# Ambientes virtuais
+.venv/
+
+# Arquivo de bloqueio gerado automaticamente pelo Poetry
+poetry.lock
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs e relatórios
+*.log
+*.pid
+*.out
+*.err
+
+# Arquivos temporários ou de backup
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações de IDEs e editores de texto
+.idea/
+.vscode/
+*.code-workspace
+
+# Arquivos de cobertura de testes
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Arquivos de distribuição
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Arquivos de contêineres Docker (se aplicável)
+.dockerignore
